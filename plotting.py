@@ -35,7 +35,7 @@ fig1.savefig('Scatter_Plot.jpg', dpi=300)
 
 #Box Plot
 
-fig2 = plt.figure(figsize=(20,15))
+fig2 = plt.figure(figsize=(20,10))
 columns = []
 for i in cols[13:]:
     columns.append(i)
