@@ -5,7 +5,7 @@
 The code is available in the zip file Code_and_plots.zip, and is named plotting.py.  
 Its a python can script and can be run by the following command:  
 
-python plotting.py
+<code>python plotting.py</code>
 
 ## Dataset  
 
