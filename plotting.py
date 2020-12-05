@@ -35,19 +35,20 @@ fig1.savefig('Scatter_Plot.jpg', dpi=300)
 
 #Box Plot
 
-fig2 = plt.figure(figsize=(20,10))
+fig2 = plt.figure(figsize=(20,15))
 columns = []
 for i in cols[13:]:
     columns.append(i)
 length = len(columns)
 # print(columns)
-df.boxplot(column = columns, fontsize=15)
+df.boxplot(column = columns, fontsize=10)
 plt.ylabel('Percentage Growth', fontsize=15)
-plt.xticks(rotation=20)
+plt.xticks(rotation=45)
 # plt.xlabel(fontsize=15)
 # plt.legend()
 plt.title('Box Plot of various percentage growth w.r.t Financial Year', fontsize=15)
 # plt.show()
+plt.tight_layout()
 fig2.savefig('Box_Plot.jpg', dpi=300)
 
 #Line Plot
