@@ -41,7 +41,9 @@ We will be plotting the box and whiskers plot of Agriculture, Industry, Mining, 
 
 You can see the plot below:
 
-![alt text](https://github.com/rjroy196/ds200/blob/main/Box_Plot.jpg)
+![alt text](https://github.com/rjroy196/ds200/blob/main/Box_Plot.jpg)  
+
+The industry sector shows the highest growth rate and seems consistent too with less deviation from the mean. Agriculture and allied services and also the mining industry show larger deviation from mean and some outliers are also present in the boxplots.
 
 ## Line Plot  
 
