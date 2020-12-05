@@ -1,5 +1,12 @@
 # Project Repository of Research Methods course DS200
 
+## Code  
+
+The code is available in the zip file Code_and_plots.zip, and is named plotting.py.  
+Its a python can script and can be run by the following command:  
+
+python plotting.py
+
 ## Dataset  
 
 We will be dealing with the dataset from this [link](https://data.gov.in/catalog/gdp-india-and-major-sectors-economy-share-each-sector-gdp-and-growth-rate-gdp-and-other?filters%5Bfield_catalog_reference%5D=88141&format=json&offset=0&limit=6&sort%5Bcreated%5D=desc).  
