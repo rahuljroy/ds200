@@ -12,6 +12,9 @@ Its a python can script and can be run by the following command:
 We will be dealing with the dataset from this [link](https://data.gov.in/catalog/gdp-india-and-major-sectors-economy-share-each-sector-gdp-and-growth-rate-gdp-and-other?filters%5Bfield_catalog_reference%5D=88141&format=json&offset=0&limit=6&sort%5Bcreated%5D=desc).  
 It has the details about the GDP of major sectors of the Indian Economy during the timeline 1951 to 2013.  
 
+We will be using Pandas to read the file into a dataframe. The dataset is of a .xml format.  
+So we would be using the <code>read_excel<code> function from Pandas.
+
 ## Scatter Plot  
 
 We will be plotting the percentage growth rate of the GDP against time.  
